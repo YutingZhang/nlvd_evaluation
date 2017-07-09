@@ -12,5 +12,5 @@ rm ./vg_v1_json.tar.gz
 (cd ./vg_v1; python split_rd.py)
 
 # convert json to mat
-(cd ./vg_v1; echo "json2mat" > matlab)
+(cd ./vg_v1; matlab -nodisplay -r "json2mat; exit")
 
